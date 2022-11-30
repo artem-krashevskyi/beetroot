@@ -1,0 +1,134 @@
+* {
+    font-size: 18px;
+    color: #070707;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, section, footer {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#about-me, #portfolio {
+    background-color: #f6f6f6;
+}
+
+#about-me, #skills, #portfolio, #contacts {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+span, small {
+    font-size: 14px;
+}
+
+nav {
+    height: 80px;
+    border-bottom: 1px solid #828282;
+}
+
+a {
+    color: #070707;
+    display: inline-block;
+}
+
+nav > a {
+    color: #828282;
+    text-decoration: none;
+    margin: 29px 20px;
+
+}
+
+nav > a:hover {
+    color: #070707;
+}
+
+.main-heading {
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+.about-me-heading, .portfolio-heading {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.skills-heading, .contacts-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.about-me-text {
+    max-width: 480px;
+}
+
+.about-me-text > p {
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    margin-top: 50px;
+}
+
+.skill-card {
+    width: 21%;
+    height: 230px;
+}
+
+.skill-card > svg {
+    margin: 0 auto 25px;
+}
+
+.skill-card > span {
+    display: block;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+.rating-container > svg {
+    margin: 0 5px;
+}
+
+.fashion-store-container, .reebok-store-container {
+    margin-bottom: 70px;
+}
+
+.page-link {
+    display: block;
+    margin-top: 40px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #070707;
+    width: 180px;
+    height: 44px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.social-links > a {
+    margin: 0 25px;
+}
+
+#contacts small {
+    display: inline-block;
+    width: 200px;
+    margin-top: 60px;
+}
