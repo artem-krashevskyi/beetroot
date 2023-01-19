@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+section {
+    padding-top: 120px;
+}
+
+.section-heading {
+    font-size: 36px;
+    line-height: 125%;
+    font-weight: 400;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-auto-columns: 25.7vw;
+    grid-auto-rows: 25.7vw;
+    gap: 2vw;
+    place-content: center;
+}
+
+.architecture {
+    grid-template-areas: 
+        "architecture1 architecture2 architecture2"
+        "architecture3 architecture3 architecture4"
+        "architecture5 architecture6 architecture6";
+}
+
+.life {
+    grid-template-areas: 
+        "life1 life2 life2"
+        "life3 life3 life4"
+        "life3 life3 life4"
+        "life5 life5 life6";
+}
+
+.fashion {
+    grid-template-areas: 
+        "fashion1 fashion2 fashion3"
+        "fashion4 fashion2 fashion5"
+        "fashion6 fashion7 fashion5"
+        "fashion6 fashion8 fashion8"
+        "fashion9 fashion9 fashion10";
+
+    padding-bottom: 120px;
+}
+
+.grid-item {
+    border-radius: 1.39vw;
+    padding: 1.39vw;
+    opacity: .75;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.grid-item:hover {
+    opacity: 1;
+}
+
+.buttons {
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e0e0e0;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    opacity: 1;
+}
+
+.grid-item:hover .buttons {
+    visibility: visible;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 125%;
+    color: #fff;
+}
+
+.author {
+    font-weight: 500;
+}
+
+.architecture1 {
+    background-image: url(assets/images/image1-1.png);
+    grid-area: architecture1;
+}
+
+.architecture2 {
+    background-image: url(assets/images/image1-2.png);
+    grid-area: architecture2;
+}
+
+.architecture3 {
+    background-image: url(assets/images/image1-3.png);
+    grid-area: architecture3;
+}
+
+.architecture4 {
+    background-image: url(assets/images/image1-4.png);
+    grid-area: architecture4;
+}
+
+.architecture5 {
+    background-image: url(assets/images/image1-5.png);
+    grid-area: architecture5;
+}
+
+.architecture6 {
+    background-image: url(assets/images/image1-6.png);
+    grid-area: architecture6;
+}
+
+.life1 {
+    background-image: url(assets/images/image2-1.png);
+    grid-area: life1;
+}
+
+.life2 {
+    background-image: url(assets/images/image2-2.png);
+    grid-area: life2;
+}
+
+.life3 {
+    background-image: url(assets/images/image2-3.png);
+    grid-area: life3;
+}
+
+.life4 {
+    background-image: url(assets/images/image2-4.png);
+    grid-area: life4;
+}
+
+.life5 {
+    background-image: url(assets/images/image2-5.png);
+    grid-area: life5;
+}
+
+.life6 {
+    background-image: url(assets/images/image2-6.png);
+    grid-area: life6;
+}
+
+.fashion1 {
+    background-image: url(assets/images/image3-1.png);
+    grid-area: fashion1;
+}
+
+.fashion2 {
+    background-image: url(assets/images/image3-2.png);
+    grid-area: fashion2;
+}
+
+.fashion3 {
+    background-image: url(assets/images/image3-3.png);
+    grid-area: fashion3;
+}
+
+.fashion4 {
+    background-image: url(assets/images/image3-4.png);
+    grid-area: fashion4;
+}
+
+.fashion5 {
+    background-image: url(assets/images/image3-5.png);
+    grid-area: fashion5;
+}
+
+.fashion6 {
+    background-image: url(assets/images/image3-6.png);
+    grid-area: fashion6;
+}
+
+.fashion7 {
+    background-image: url(assets/images/image3-7.png);
+    grid-area: fashion7;
+}
+
+.fashion8 {
+    background-image: url(assets/images/image3-8.png);
+    grid-area: fashion8;
+}
+
+.fashion9 {
+    background-image: url(assets/images/image3-9.png);
+    grid-area: fashion9;
+}
+
+.fashion10 {
+    background-image: url(assets/images/image3-10.png);
+    grid-area: fashion10;
+}
