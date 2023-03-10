@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    width: 400px;
+    min-width: 200px;
+    max-width: 800px;
+    height: 200px;
+    min-height: 100px;
+    max-height: 400px;
+    background-color: burlywood;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+textarea.block {
+    resize: none;
+}
+
+#sortable-table {
+    border-collapse: collapse;
+}
+
+#sortable-table th,  #sortable-table td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#sortable-table th:hover {
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+#resizable {
+    position: relative;
+}
+
+#resizer {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    cursor: nw-resize;
+}
